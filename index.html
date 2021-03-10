@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pyramid">Pyramid Slide</div>
+    <div class="content">
+        <div class="nav">
+            <div class="nav__symb">
+                <span>Brick Symbol</span>
+                <select>
+                    <option>#</option>
+                    <option>@</option>
+                    <option>X</option>
+                    <option>$</option>
+                </select>
+            </div>
+            <div class="nav__pyramid-options">
+                <span>How high?</span>
+                <form>
+                    <input class="input-range" type="range" id="pyramide__height" min="1" max="20">
+                    <output class="output-range"></output>
+                </form>
+            </div>
+        </div>
+        <div class="pyramid-body"></div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
